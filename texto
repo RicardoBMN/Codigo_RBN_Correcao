@@ -1,16 +1,4 @@
-Estou desenvolvendo um agente no Agent Builder do ChatPwC para revisar documentos de consultoria em PDF antes de serem enviados ao cliente.
+Descrição do Agent: Revisa documentos de consultoria em português, identificando problemas de ortografia, gramática, consistência, padronização, formatação, nomenclatura e qualidade editorial, gerando um relatório estruturado antes do envio ao cliente.
 
-O agente deve identificar erros de ortografia, gramática, padronização, inconsistências entre páginas, problemas de formatação e qualidade geral do documento.
 
-Antes de implementar essa solução, gostaria de entender quais são as capacidades do Agent Builder.
-Especificamente:
-
-1. É possível adicionar código Python próprio ao agente para ser reutilizado entre conversas?
-2. O recurso "Upload for Code Interpreter" serve apenas como arquivo de entrada ou é possível enviar scripts Python que o agente executará?
-3. Quando devo utilizar Code Interpreter, Tools, Actions e MCP Servers? Em quais cenários cada um é recomendado?
-4. É possível criar componentes reutilizáveis para que o agente não precise gerar código Python a cada execução?
-5. Qual seria a arquitetura recomendada para construir um agente de revisão de documentos robusto dentro do ChatPwC?
-6. Existem limitações conhecidas para análise de PDFs grandes (200–300 páginas)?
-
-Gostaria de seguir a arquitetura recomendada pela plataforma em vez de implementar uma solução que não aproveite os recursos disponíveis.
-
+Envie um documento (PDF, PowerPoint ou Word) para revisão. O agente analisará todo o conteúdo e gerará um relatório estruturado com todos os problemas encontrados, classificados por severidade e acompanhados de sugestões de correção.
